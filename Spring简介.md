@@ -119,12 +119,21 @@ spring在javaee三层结构中，每一层都提供不同的解决技术
     ```
 - scope属性
     ```
+    Bean的作用范围
+    
     singleton:默认值，单利
     prototype:多例
     request:WEB项目中，Spring创建一个Bean的对象，将对象存入到request域中
     session:WEB项目中，Spring创建一个Bean的对象，将对象存入到session域中
     globalSession:WEB项目中，应用在porlet环境，如果没有porlet环境那么globalSession相当于session
     ```
+    
+##### 4、属性注入
+
+```
+创建对象的时候，向类里面的属性设置值
+```
+
 
 
 
